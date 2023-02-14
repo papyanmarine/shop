@@ -3,6 +3,16 @@ include("./header.php");
 ?>
    
    <div class="main home-page">
+        <div class="header-banner-block">
+            <div class="header-banner-items owl-carousel">
+                <div class="header-banner-bg">
+                    <img src="./img/bg_1.jpeg" alt="">
+                </div>
+                <div class="header-banner-bg">
+                    <img src="./img/bg_1.jpeg" alt="">
+                </div>
+            </div>
+        </div>
         <div class="stores bl-pd">
             <div class="container">
                 <div class="stores-items fl-row owl-carousel">
@@ -92,15 +102,15 @@ include("./header.php");
                                 <div class="add-to-basket">
                                     <p> Add to basket</p>
                                     <div class="product-size">
-                                        <span>XS</span>
-                                        <span>S</span>
-                                        <span>M</span>
-                                        <span>L</span>
+                                        <span class="add-to-basket-button">XS</span>
+                                        <span class="add-to-basket-button">S</span>
+                                        <span class="add-to-basket-button">M</span>
+                                        <span class="add-to-basket-button">L</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="product-title">
-                                <h3>Purple cashmere sweater</h3>
+                                <a href="./detail-page.php">Purple cashmere sweater25</a>
                             </div>
                             <div class="product-price">$200</div>
                             
@@ -120,7 +130,9 @@ include("./header.php");
                                     </div>
                                 </div>
                                 <div class="product-favorites">
-                                    <img src="./img/heart-grey.svg">
+                                    <svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M290.5 522.472C282 525.843 268 525.843 259.5 522.472C187 494.663 25 378.652 25 182.022C25 95.2247 87.25 25 164 25C209.5 25 249.75 49.7191 275 87.9213C300.25 49.7191 340.75 25 386 25C462.75 25 525 95.2247 525 182.022C525 378.652 363 494.663 290.5 522.472Z" stroke="#C1C1C1" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -135,15 +147,15 @@ include("./header.php");
                                 <div class="add-to-basket">
                                     <p> Add to basket</p>
                                     <div class="product-size">
-                                        <span>XS</span>
-                                        <span>S</span>
-                                        <span>M</span>
-                                        <span>L</span>
+                                        <span class="add-to-basket-button">XS</span>
+                                        <span class="add-to-basket-button">S</span>
+                                        <span class="add-to-basket-button">M</span>
+                                        <span class="add-to-basket-button">L</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="product-title">
-                                <h3>Purple cashmere sweater</h3>
+                                <a href="#">Purple cashmere sweater</a>
                             </div>
                             <div class="product-price">$200</div>
                             
@@ -163,7 +175,9 @@ include("./header.php");
                                     </div>
                                 </div>
                                 <div class="product-favorites">
-                                    <img src="./img/heart-grey.svg">
+                                    <svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M290.5 522.472C282 525.843 268 525.843 259.5 522.472C187 494.663 25 378.652 25 182.022C25 95.2247 87.25 25 164 25C209.5 25 249.75 49.7191 275 87.9213C300.25 49.7191 340.75 25 386 25C462.75 25 525 95.2247 525 182.022C525 378.652 363 494.663 290.5 522.472Z" stroke="#C1C1C1" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -178,15 +192,15 @@ include("./header.php");
                                 <div class="add-to-basket">
                                     <p> Add to basket</p>
                                     <div class="product-size">
-                                        <span>XS</span>
-                                        <span>S</span>
-                                        <span>M</span>
-                                        <span>L</span>
+                                        <span class="add-to-basket-button">XS</span>
+                                        <span class="add-to-basket-button">S</span>
+                                        <span class="add-to-basket-button">M</span>
+                                        <span class="add-to-basket-button">L</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="product-title">
-                                <h3>Purple cashmere sweater</h3>
+                                <a href="#">Purple cashmere sweater</a>
                             </div>
                             <div class="product-price">$200</div>
                             
@@ -206,7 +220,9 @@ include("./header.php");
                                     </div>
                                 </div>
                                 <div class="product-favorites">
-                                    <img src="./img/heart-grey.svg">
+                                    <svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M290.5 522.472C282 525.843 268 525.843 259.5 522.472C187 494.663 25 378.652 25 182.022C25 95.2247 87.25 25 164 25C209.5 25 249.75 49.7191 275 87.9213C300.25 49.7191 340.75 25 386 25C462.75 25 525 95.2247 525 182.022C525 378.652 363 494.663 290.5 522.472Z" stroke="#C1C1C1" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -221,15 +237,15 @@ include("./header.php");
                                 <div class="add-to-basket">
                                     <p> Add to basket</p>
                                     <div class="product-size">
-                                        <span>XS</span>
-                                        <span>S</span>
-                                        <span>M</span>
-                                        <span>L</span>
+                                        <span class="add-to-basket-button">XS</span>
+                                        <span class="add-to-basket-button">S</span>
+                                        <span class="add-to-basket-button">M</span>
+                                        <span class="add-to-basket-button">L</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="product-title">
-                                <h3>Purple cashmere sweater</h3>
+                                <a href="#">Purple cashmere sweater</a>
                             </div>
                             <div class="product-price">$200</div>
                             
@@ -249,7 +265,9 @@ include("./header.php");
                                     </div>
                                 </div>
                                 <div class="product-favorites">
-                                    <img src="./img/heart-grey.svg">
+                                    <svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M290.5 522.472C282 525.843 268 525.843 259.5 522.472C187 494.663 25 378.652 25 182.022C25 95.2247 87.25 25 164 25C209.5 25 249.75 49.7191 275 87.9213C300.25 49.7191 340.75 25 386 25C462.75 25 525 95.2247 525 182.022C525 378.652 363 494.663 290.5 522.472Z" stroke="#C1C1C1" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -264,15 +282,15 @@ include("./header.php");
                                 <div class="add-to-basket">
                                     <p> Add to basket</p>
                                     <div class="product-size">
-                                        <span>XS</span>
-                                        <span>S</span>
-                                        <span>M</span>
-                                        <span>L</span>
+                                        <span class="add-to-basket-button">XS</span>
+                                        <span class="add-to-basket-button">S</span>
+                                        <span class="add-to-basket-button">M</span>
+                                        <span class="add-to-basket-button">L</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="product-title">
-                                <h3>Purple cashmere sweater</h3>
+                                <a href="#">Purple cashmere sweater</a>
                             </div>
                             <div class="product-price">$200</div>
                             
@@ -292,7 +310,9 @@ include("./header.php");
                                     </div>
                                 </div>
                                 <div class="product-favorites">
-                                    <img src="./img/heart-grey.svg">
+                                    <svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M290.5 522.472C282 525.843 268 525.843 259.5 522.472C187 494.663 25 378.652 25 182.022C25 95.2247 87.25 25 164 25C209.5 25 249.75 49.7191 275 87.9213C300.25 49.7191 340.75 25 386 25C462.75 25 525 95.2247 525 182.022C525 378.652 363 494.663 290.5 522.472Z" stroke="#C1C1C1" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -324,15 +344,15 @@ include("./header.php");
                                 <div class="add-to-basket">
                                     <p> Add to basket</p>
                                     <div class="product-size">
-                                        <span>XS</span>
-                                        <span>S</span>
-                                        <span>M</span>
-                                        <span>L</span>
+                                        <span class="add-to-basket-button">XS</span>
+                                        <span class="add-to-basket-button">S</span>
+                                        <span class="add-to-basket-button">M</span>
+                                        <span class="add-to-basket-button">L</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="product-title">
-                                <h3>Purple cashmere sweater</h3>
+                                <a href="#">Purple cashmere sweater</a>
                             </div>
                             <div class="product-price">$200</div>
                             
@@ -352,7 +372,9 @@ include("./header.php");
                                     </div>
                                 </div>
                                 <div class="product-favorites">
-                                    <img src="./img/heart-grey.svg">
+                                    <svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M290.5 522.472C282 525.843 268 525.843 259.5 522.472C187 494.663 25 378.652 25 182.022C25 95.2247 87.25 25 164 25C209.5 25 249.75 49.7191 275 87.9213C300.25 49.7191 340.75 25 386 25C462.75 25 525 95.2247 525 182.022C525 378.652 363 494.663 290.5 522.472Z" stroke="#C1C1C1" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -367,15 +389,15 @@ include("./header.php");
                                 <div class="add-to-basket">
                                     <p> Add to basket</p>
                                     <div class="product-size">
-                                        <span>XS</span>
-                                        <span>S</span>
-                                        <span>M</span>
-                                        <span>L</span>
+                                        <span class="add-to-basket-button">XS</span>
+                                        <span class="add-to-basket-button">S</span>
+                                        <span class="add-to-basket-button">M</span>
+                                        <span class="add-to-basket-button">L</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="product-title">
-                                <h3>Purple cashmere sweater</h3>
+                                <a href="#">Purple cashmere sweater</a>
                             </div>
                             <div class="product-price">$200</div>
                             
@@ -395,7 +417,9 @@ include("./header.php");
                                     </div>
                                 </div>
                                 <div class="product-favorites">
-                                    <img src="./img/heart-grey.svg">
+                                    <svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M290.5 522.472C282 525.843 268 525.843 259.5 522.472C187 494.663 25 378.652 25 182.022C25 95.2247 87.25 25 164 25C209.5 25 249.75 49.7191 275 87.9213C300.25 49.7191 340.75 25 386 25C462.75 25 525 95.2247 525 182.022C525 378.652 363 494.663 290.5 522.472Z" stroke="#C1C1C1" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -410,15 +434,15 @@ include("./header.php");
                                 <div class="add-to-basket">
                                     <p> Add to basket</p>
                                     <div class="product-size">
-                                        <span>XS</span>
-                                        <span>S</span>
-                                        <span>M</span>
-                                        <span>L</span>
+                                        <span class="add-to-basket-button">XS</span>
+                                        <span class="add-to-basket-button">S</span>
+                                        <span class="add-to-basket-button">M</span>
+                                        <span class="add-to-basket-button">L</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="product-title">
-                                <h3>Purple cashmere sweater</h3>
+                                <a href="#">Purple cashmere sweater</a>
                             </div>
                             <div class="product-price">$200</div>
                             
@@ -438,7 +462,9 @@ include("./header.php");
                                     </div>
                                 </div>
                                 <div class="product-favorites">
-                                    <img src="./img/heart-grey.svg">
+                                    <svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M290.5 522.472C282 525.843 268 525.843 259.5 522.472C187 494.663 25 378.652 25 182.022C25 95.2247 87.25 25 164 25C209.5 25 249.75 49.7191 275 87.9213C300.25 49.7191 340.75 25 386 25C462.75 25 525 95.2247 525 182.022C525 378.652 363 494.663 290.5 522.472Z" stroke="#C1C1C1" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -453,15 +479,15 @@ include("./header.php");
                                 <div class="add-to-basket">
                                     <p> Add to basket</p>
                                     <div class="product-size">
-                                        <span>XS</span>
-                                        <span>S</span>
-                                        <span>M</span>
-                                        <span>L</span>
+                                        <span class="add-to-basket-button">XS</span>
+                                        <span class="add-to-basket-button">S</span>
+                                        <span class="add-to-basket-button">M</span>
+                                        <span class="add-to-basket-button">L</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="product-title">
-                                <h3>Purple cashmere sweater</h3>
+                                <a href="#">Purple cashmere sweater</a>
                             </div>
                             <div class="product-price">$200</div>
                             
@@ -481,7 +507,9 @@ include("./header.php");
                                     </div>
                                 </div>
                                 <div class="product-favorites">
-                                    <img src="./img/heart-grey.svg">
+                                    <svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M290.5 522.472C282 525.843 268 525.843 259.5 522.472C187 494.663 25 378.652 25 182.022C25 95.2247 87.25 25 164 25C209.5 25 249.75 49.7191 275 87.9213C300.25 49.7191 340.75 25 386 25C462.75 25 525 95.2247 525 182.022C525 378.652 363 494.663 290.5 522.472Z" stroke="#C1C1C1" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -496,15 +524,15 @@ include("./header.php");
                                 <div class="add-to-basket">
                                     <p> Add to basket</p>
                                     <div class="product-size">
-                                        <span>XS</span>
-                                        <span>S</span>
-                                        <span>M</span>
-                                        <span>L</span>
+                                        <span class="add-to-basket-button">XS</span>
+                                        <span class="add-to-basket-button">S</span>
+                                        <span class="add-to-basket-button">M</span>
+                                        <span class="add-to-basket-button">L</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="product-title">
-                                <h3>Purple cashmere sweater</h3>
+                                <a href="#">Purple cashmere sweater</a>
                             </div>
                             <div class="product-price">$200</div>
                             
@@ -524,7 +552,9 @@ include("./header.php");
                                     </div>
                                 </div>
                                 <div class="product-favorites">
-                                    <img src="./img/heart-grey.svg">
+                                    <svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M290.5 522.472C282 525.843 268 525.843 259.5 522.472C187 494.663 25 378.652 25 182.022C25 95.2247 87.25 25 164 25C209.5 25 249.75 49.7191 275 87.9213C300.25 49.7191 340.75 25 386 25C462.75 25 525 95.2247 525 182.022C525 378.652 363 494.663 290.5 522.472Z" stroke="#C1C1C1" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -541,15 +571,15 @@ include("./header.php");
                                 <div class="add-to-basket">
                                     <p> Add to basket</p>
                                     <div class="product-size">
-                                        <span>XS</span>
-                                        <span>S</span>
-                                        <span>M</span>
-                                        <span>L</span>
+                                        <span class="add-to-basket-button">XS</span>
+                                        <span class="add-to-basket-button">S</span>
+                                        <span class="add-to-basket-button">M</span>
+                                        <span class="add-to-basket-button">L</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="product-title">
-                                <h3>Purple cashmere sweater</h3>
+                                <a href="#">Purple cashmere sweater</a>
                             </div>
                             <div class="product-price">$200</div>
                             
@@ -569,7 +599,9 @@ include("./header.php");
                                     </div>
                                 </div>
                                 <div class="product-favorites">
-                                    <img src="./img/heart-grey.svg">
+                                    <svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M290.5 522.472C282 525.843 268 525.843 259.5 522.472C187 494.663 25 378.652 25 182.022C25 95.2247 87.25 25 164 25C209.5 25 249.75 49.7191 275 87.9213C300.25 49.7191 340.75 25 386 25C462.75 25 525 95.2247 525 182.022C525 378.652 363 494.663 290.5 522.472Z" stroke="#C1C1C1" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -584,15 +616,15 @@ include("./header.php");
                                 <div class="add-to-basket">
                                     <p> Add to basket</p>
                                     <div class="product-size">
-                                        <span>XS</span>
-                                        <span>S</span>
-                                        <span>M</span>
-                                        <span>L</span>
+                                        <span class="add-to-basket-button">XS</span>
+                                        <span class="add-to-basket-button">S</span>
+                                        <span class="add-to-basket-button">M</span>
+                                        <span class="add-to-basket-button">L</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="product-title">
-                                <h3>Purple cashmere sweater</h3>
+                                <a href="#">Purple cashmere sweater</a>
                             </div>
                             <div class="product-price">$200</div>
                             
@@ -612,7 +644,9 @@ include("./header.php");
                                     </div>
                                 </div>
                                 <div class="product-favorites">
-                                    <img src="./img/heart-grey.svg">
+                                    <svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M290.5 522.472C282 525.843 268 525.843 259.5 522.472C187 494.663 25 378.652 25 182.022C25 95.2247 87.25 25 164 25C209.5 25 249.75 49.7191 275 87.9213C300.25 49.7191 340.75 25 386 25C462.75 25 525 95.2247 525 182.022C525 378.652 363 494.663 290.5 522.472Z" stroke="#C1C1C1" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -627,15 +661,15 @@ include("./header.php");
                                 <div class="add-to-basket">
                                     <p> Add to basket</p>
                                     <div class="product-size">
-                                        <span>XS</span>
-                                        <span>S</span>
-                                        <span>M</span>
-                                        <span>L</span>
+                                        <span class="add-to-basket-button">XS</span>
+                                        <span class="add-to-basket-button">S</span>
+                                        <span class="add-to-basket-button">M</span>
+                                        <span class="add-to-basket-button">L</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="product-title">
-                                <h3>Purple cashmere sweater</h3>
+                                <a href="#">Purple cashmere sweater</a>
                             </div>
                             <div class="product-price">$200</div>
                             
@@ -655,7 +689,9 @@ include("./header.php");
                                     </div>
                                 </div>
                                 <div class="product-favorites">
-                                    <img src="./img/heart-grey.svg">
+                                    <svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M290.5 522.472C282 525.843 268 525.843 259.5 522.472C187 494.663 25 378.652 25 182.022C25 95.2247 87.25 25 164 25C209.5 25 249.75 49.7191 275 87.9213C300.25 49.7191 340.75 25 386 25C462.75 25 525 95.2247 525 182.022C525 378.652 363 494.663 290.5 522.472Z" stroke="#C1C1C1" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -670,15 +706,15 @@ include("./header.php");
                                 <div class="add-to-basket">
                                     <p> Add to basket</p>
                                     <div class="product-size">
-                                        <span>XS</span>
-                                        <span>S</span>
-                                        <span>M</span>
-                                        <span>L</span>
+                                        <span class="add-to-basket-button">XS</span>
+                                        <span class="add-to-basket-button">S</span>
+                                        <span class="add-to-basket-button">M</span>
+                                        <span class="add-to-basket-button">L</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="product-title">
-                                <h3>Purple cashmere sweater</h3>
+                                <a href="#">Purple cashmere sweater</a>
                             </div>
                             <div class="product-price">$200</div>
                             
@@ -698,7 +734,9 @@ include("./header.php");
                                     </div>
                                 </div>
                                 <div class="product-favorites">
-                                    <img src="./img/heart-grey.svg">
+                                    <svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M290.5 522.472C282 525.843 268 525.843 259.5 522.472C187 494.663 25 378.652 25 182.022C25 95.2247 87.25 25 164 25C209.5 25 249.75 49.7191 275 87.9213C300.25 49.7191 340.75 25 386 25C462.75 25 525 95.2247 525 182.022C525 378.652 363 494.663 290.5 522.472Z" stroke="#C1C1C1" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -713,15 +751,15 @@ include("./header.php");
                                 <div class="add-to-basket">
                                     <p> Add to basket</p>
                                     <div class="product-size">
-                                        <span>XS</span>
-                                        <span>S</span>
-                                        <span>M</span>
-                                        <span>L</span>
+                                        <span class="add-to-basket-button">XS</span>
+                                        <span class="add-to-basket-button">S</span>
+                                        <span class="add-to-basket-button">M</span>
+                                        <span class="add-to-basket-button">L</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="product-title">
-                                <h3>Purple cashmere sweater</h3>
+                                <a href="#">Purple cashmere sweater</a>
                             </div>
                             <div class="product-price">$200</div>
                             
@@ -741,7 +779,9 @@ include("./header.php");
                                     </div>
                                 </div>
                                 <div class="product-favorites">
-                                    <img src="./img/heart-grey.svg">
+                                    <svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M290.5 522.472C282 525.843 268 525.843 259.5 522.472C187 494.663 25 378.652 25 182.022C25 95.2247 87.25 25 164 25C209.5 25 249.75 49.7191 275 87.9213C300.25 49.7191 340.75 25 386 25C462.75 25 525 95.2247 525 182.022C525 378.652 363 494.663 290.5 522.472Z" stroke="#C1C1C1" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -758,15 +798,15 @@ include("./header.php");
                                 <div class="add-to-basket">
                                     <p> Add to basket</p>
                                     <div class="product-size">
-                                        <span>XS</span>
-                                        <span>S</span>
-                                        <span>M</span>
-                                        <span>L</span>
+                                        <span class="add-to-basket-button">XS</span>
+                                        <span class="add-to-basket-button">S</span>
+                                        <span class="add-to-basket-button">M</span>
+                                        <span class="add-to-basket-button">L</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="product-title">
-                                <h3>Purple cashmere sweater</h3>
+                                <a href="#">Purple cashmere sweater</a>
                             </div>
                             <div class="product-price">$200</div>
                             
@@ -786,7 +826,9 @@ include("./header.php");
                                     </div>
                                 </div>
                                 <div class="product-favorites">
-                                    <img src="./img/heart-grey.svg">
+                                    <svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M290.5 522.472C282 525.843 268 525.843 259.5 522.472C187 494.663 25 378.652 25 182.022C25 95.2247 87.25 25 164 25C209.5 25 249.75 49.7191 275 87.9213C300.25 49.7191 340.75 25 386 25C462.75 25 525 95.2247 525 182.022C525 378.652 363 494.663 290.5 522.472Z" stroke="#C1C1C1" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -801,15 +843,15 @@ include("./header.php");
                                 <div class="add-to-basket">
                                     <p> Add to basket</p>
                                     <div class="product-size">
-                                        <span>XS</span>
-                                        <span>S</span>
-                                        <span>M</span>
-                                        <span>L</span>
+                                        <span class="add-to-basket-button">XS</span>
+                                        <span class="add-to-basket-button">S</span>
+                                        <span class="add-to-basket-button">M</span>
+                                        <span class="add-to-basket-button">L</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="product-title">
-                                <h3>Purple cashmere sweater</h3>
+                                <a href="#">Purple cashmere sweater</a>
                             </div>
                             <div class="product-price">$200</div>
                             
@@ -829,7 +871,9 @@ include("./header.php");
                                     </div>
                                 </div>
                                 <div class="product-favorites">
-                                    <img src="./img/heart-grey.svg">
+                                    <svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M290.5 522.472C282 525.843 268 525.843 259.5 522.472C187 494.663 25 378.652 25 182.022C25 95.2247 87.25 25 164 25C209.5 25 249.75 49.7191 275 87.9213C300.25 49.7191 340.75 25 386 25C462.75 25 525 95.2247 525 182.022C525 378.652 363 494.663 290.5 522.472Z" stroke="#C1C1C1" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -844,15 +888,15 @@ include("./header.php");
                                 <div class="add-to-basket">
                                     <p> Add to basket</p>
                                     <div class="product-size">
-                                        <span>XS</span>
-                                        <span>S</span>
-                                        <span>M</span>
-                                        <span>L</span>
+                                        <span class="add-to-basket-button">XS</span>
+                                        <span class="add-to-basket-button">S</span>
+                                        <span class="add-to-basket-button">M</span>
+                                        <span class="add-to-basket-button">L</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="product-title">
-                                <h3>Purple cashmere sweater</h3>
+                                <a href="#">Purple cashmere sweater</a>
                             </div>
                             <div class="product-price">$200</div>
                             
@@ -872,7 +916,9 @@ include("./header.php");
                                     </div>
                                 </div>
                                 <div class="product-favorites">
-                                    <img src="./img/heart-grey.svg">
+                                    <svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M290.5 522.472C282 525.843 268 525.843 259.5 522.472C187 494.663 25 378.652 25 182.022C25 95.2247 87.25 25 164 25C209.5 25 249.75 49.7191 275 87.9213C300.25 49.7191 340.75 25 386 25C462.75 25 525 95.2247 525 182.022C525 378.652 363 494.663 290.5 522.472Z" stroke="#C1C1C1" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -887,15 +933,15 @@ include("./header.php");
                                 <div class="add-to-basket">
                                     <p> Add to basket</p>
                                     <div class="product-size">
-                                        <span>XS</span>
-                                        <span>S</span>
-                                        <span>M</span>
-                                        <span>L</span>
+                                        <span class="add-to-basket-button">XS</span>
+                                        <span class="add-to-basket-button">S</span>
+                                        <span class="add-to-basket-button">M</span>
+                                        <span class="add-to-basket-button">L</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="product-title">
-                                <h3>Purple cashmere sweater</h3>
+                                <a href="#">Purple cashmere sweater</a>
                             </div>
                             <div class="product-price">$200</div>
                             
@@ -915,7 +961,9 @@ include("./header.php");
                                     </div>
                                 </div>
                                 <div class="product-favorites">
-                                    <img src="./img/heart-grey.svg">
+                                    <svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M290.5 522.472C282 525.843 268 525.843 259.5 522.472C187 494.663 25 378.652 25 182.022C25 95.2247 87.25 25 164 25C209.5 25 249.75 49.7191 275 87.9213C300.25 49.7191 340.75 25 386 25C462.75 25 525 95.2247 525 182.022C525 378.652 363 494.663 290.5 522.472Z" stroke="#C1C1C1" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -930,15 +978,15 @@ include("./header.php");
                                 <div class="add-to-basket">
                                     <p> Add to basket</p>
                                     <div class="product-size">
-                                        <span>XS</span>
-                                        <span>S</span>
-                                        <span>M</span>
-                                        <span>L</span>
+                                        <span class="add-to-basket-button">XS</span>
+                                        <span class="add-to-basket-button">S</span>
+                                        <span class="add-to-basket-button">M</span>
+                                        <span class="add-to-basket-button">L</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="product-title">
-                                <h3>Purple cashmere sweater</h3>
+                                <a href="#">Purple cashmere sweater</a>
                             </div>
                             <div class="product-price">$200</div>
                             
@@ -958,7 +1006,9 @@ include("./header.php");
                                     </div>
                                 </div>
                                 <div class="product-favorites">
-                                    <img src="./img/heart-grey.svg">
+                                    <svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M290.5 522.472C282 525.843 268 525.843 259.5 522.472C187 494.663 25 378.652 25 182.022C25 95.2247 87.25 25 164 25C209.5 25 249.75 49.7191 275 87.9213C300.25 49.7191 340.75 25 386 25C462.75 25 525 95.2247 525 182.022C525 378.652 363 494.663 290.5 522.472Z" stroke="#C1C1C1" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -1007,10 +1057,6 @@ include("./header.php");
             </div>
         </div>
     </div>
-    
-    <div class="add-tobasket-popap hide">
-        <p>Product is added</p>
-    </div>
     <div class="stores-popap">
         <div class="container">
             <div class="stores-popap-wrap">
@@ -1032,16 +1078,16 @@ include("./header.php");
                     </div>
                     <div class="stores-slider owl-carousel">
                         <div class="stores-slider-item">
-                            <img src="./img/woman-minimal-beige-dress-mockup.jpg" alt="beige dress">
+                            <img src="./img/purple-cashmere-sweater.webp" alt="beige dress">
                         </div>
                         <div class="stores-slider-item">
-                            <img src="./img/woman-minimal-beige-dress-mockup.jpg" alt="beige dress">
+                            <img src="./img/purple-cashmere-sweater.webp" alt="beige dress">
                         </div>
                         <div class="stores-slider-item">
-                            <img src="./img/woman-minimal-beige-dress-mockup.jpg" alt="beige dress">
+                            <img src="./img/purple-cashmere-sweater.webp" alt="beige dress">
                         </div>
                         <div class="stores-slider-item">
-                            <img src="./img/woman-minimal-beige-dress-mockup.jpg" alt="beige dress">
+                            <img src="./img/purple-cashmere-sweater.webp" alt="beige dress">
                         </div>
                     </div>
                 </div>

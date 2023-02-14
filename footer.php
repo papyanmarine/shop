@@ -1,4 +1,4 @@
-<footer class="footer">
+    <footer class="footer">
         <div class="container">
             <div class="footer-block fl-row sp-btwn">
                 <div class="subscibe">
@@ -9,6 +9,7 @@
                         <div class="footer-form-row fl-row">
                             <div class="inp-wrap">
                                 <input type="email" name="user-email" id="subscribe-email" class="inp subscribe-email" placeholder="Your email">
+                                <p class="error hide">E-mail is filled incorrectly</p>
                             </div>
                             <button type="submit" class="subscribe-send inp-btn">Send</button>
                         </div>
@@ -78,6 +79,196 @@
             </div>
         </div>
     </footer>
+    <div class="add-tobasket-popap hide">
+        <p>Product is added</p>
+    </div>
+    <div class ="basket-popap black-bg">
+        <div class ="basket-popap-wrap fix-block">
+            <div class="basket-top-bar fl-row sp-btwn">
+                <div class="basket-title">
+                    <p>Basket</p>
+                </div>
+                <div class="basket-close-btn popup-close-btn">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="basket-content">
+                <div class="empty-basket">
+                    <p>There are no items in the cart!</p>
+                    <div class="basket-btn fl-row center">
+                        <a href="#">Go to catalog</a>
+                    </div>
+                </div>
+                <div class="full-basket fl-coll sp-btwn hide">
+                    <div class="basket-items">
+                        <div class="basket-item fl-row sp-btwn">
+                            <div class="basket-item-img">
+                                <img src="./img/3224100301_92_1.jpg" alt="">
+                            </div>
+                            <div class="basket-item-content">
+                                <div class="basket-item-content-top fl-row sp-btwn">
+                                    <div>
+                                        <div class="basket-prod-name">
+                                            <a href="#">Блузка из вискозы</a>
+                                        </div>
+                                        <div class="basket-prod-articule">
+                                            <p>3224100301-92</p>
+                                        </div>
+                                        <div class="basket-prod-color">
+                                            <span class="basket-product-color" style="background-color: #5CACEE;"></span>
+                                            <span  class="collor-name">red</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="basket-prod-price">1560</p>
+                                        <p class="basket-prod-price old-price">1580</p>
+                                    </div>
+                                </div>
+                                <div class="basket-item-content-bottom fl-row sp-btwn">
+                                    <div class="fl-row" >
+                                        <p class="basket-item-size">S 44</p>
+                                        <div class="qwnt fl-row">
+                                            <p class="qwnt-minus" id="qwnt-minus">-</p>
+                                            <p class="qwnt-numb" id="qwnt-numb">1</p>
+                                            <p class="qwnt-plus" id="qwnt-plus">+</p>
+                                        </div>
+                                        <p class="basket-prod-total-price product-total-sum">1560</p>
+                                    </div>
+                                    <div class="fl-row">
+                                        <div class="basket-dell-btn">
+                                            <img src="./img/trash.svg" alt="delete button">
+                                        </div>
+                                        <div class="basket-favorites-btn">
+                                            <img src="./img/heart-dark-grey.svg" alt="favorites-button">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basket-bottom-block">
+                        <div class="basket-price">
+                            <div class="sale fl-row sp-btwn">
+                                <span class="price-title">Sale</span>
+                                <span class="sum sale-sum">-20</span>
+                            </div>
+                            <div class="total-price fl-row  sp-btwn">
+                                <span class="price-title">Total</span>
+                                <span class="sum total-sum product-total-sum">1560</span>
+                            </div>
+                        </div>
+                        <div class="basket-chekout-btn">
+                            <a href="">Chekout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="search-popap black-bg">
+        <div class="search-popap-wrap fix-block">
+            <div class="container">
+                <div class="search-top-block fl-row sp-btwn">
+                    <div class="search-input-row fl-row">
+                        <div class="serach-popup-icon"></div>
+                        <div class="search-input-wrap fl-row">
+                            <input type="text" name="search" id="search" class="search-input">
+                            <div class="search-del-btn">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <button type="submit" class="search-btn">Search</button>
+                    </div>
+                    <div class="search-close-btn">
+                        <button>Close</button>
+                    </div>
+                </div>
+                <div class="search-popup-content fl-row sp-btwn">
+                    <div class="often-searched">
+                        <p class="often-searched-title">Often searched</p>
+                        <ul class="search-popup-list">
+                            <li class="search-popup-item">
+                                <a href="#">cardigan</a>
+                            </li>
+                            <li class="search-popup-item">
+                                <a href="#">bodysuit</a>
+                            </li>
+                            <li class="search-popup-item">
+                                <a href="#">dress</a>
+                            </li>
+                            <li class="search-popup-item">
+                                <a href="#">vest</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="search-popap-prod-items fl-row sp-btwn">
+                        <div class="search-popap-prod-item">
+                            <div class="search-popap-prod-label">
+                                <p>-14%</p>
+                            </div>
+                            <div class="search-popap-prod-img">
+                                <img src="./img/woman-minimal-beige-dress-mockup.jpg" alt="img">
+                            </div>
+                            <div class="search-popap-prod-title">
+                                <a href="#">Dress with zipper</a>
+                            </div>
+                            <div class="search-popap-prod-price fl-row">
+                                <p class="main-price">1200</p>
+                                <p class="old-price">1500</p>
+                            </div>
+                        </div>
+                        <div class="search-popap-prod-item">
+                            <div class="search-popap-prod-label">
+                                <p>-14%</p>
+                            </div>
+                            <div class="search-popap-prod-img">
+                                <img src="./img/woman-minimal-beige-dress-mockup.jpg" alt="img">
+                            </div>
+                            <div class="search-popap-prod-title">
+                                <a href="#">Dress with zipper</a>
+                            </div>
+                            <div class="search-popap-prod-price fl-row">
+                                <p class="main-price">1200</p>
+                                <p class="old-price">1500</p>
+                            </div>
+                        </div>
+                        <div class="search-popap-prod-item">
+                            <div class="search-popap-prod-label">
+                                <p>-14%</p>
+                            </div>
+                            <div class="search-popap-prod-img">
+                                <img src="./img/woman-minimal-beige-dress-mockup.jpg" alt="img">
+                            </div>
+                            <div class="search-popap-prod-title">
+                                <a href="#">Dress with zipper</a>
+                            </div>
+                            <div class="search-popap-prod-price fl-row">
+                                <p class="main-price">1200</p>
+                                <p class="old-price">1500</p>
+                            </div>
+                        </div>
+                        <div class="search-popap-prod-item">
+                            <div class="search-popap-prod-label">
+                                <p>-14%</p>
+                            </div>
+                            <div class="search-popap-prod-img">
+                                <img src="./img/woman-minimal-beige-dress-mockup.jpg" alt="img">
+                            </div>
+                            <div class="search-popap-prod-title">
+                                <a href="#">Dress with zipper</a>
+                            </div>
+                            <div class="search-popap-prod-price fl-row">
+                                <p class="main-price">1200</p>
+                                <p class="old-price">1500</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="./src/owl.carousel.min.js"></script>
     <script src="./src/script.js"></script>
 </body>
